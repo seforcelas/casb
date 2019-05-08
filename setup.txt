@@ -1,0 +1,83 @@
+FPFSM - 192.168.122.198 DG 192.168.122.1  (admin@fpdc.local) 216
+FPDC (AD) - 192.168.122.158 	DG 192.168.122.1 , DNS 192.168.122.1
+WCG - Proxy1 - 192.168.122.250 (c) 192.168.122.251 (p1)
+
+192.168.122.251:8080 local proxy server (test from FSM or SQL)
+
+
+http://pac.hybrid-web.global.blackspider.com/proxy.pac?p=k3dvftfvfg
+
+"WSCONTEXT=1374a0844f4d5ced5e211c1e6206ba70-1"
+
+WEB APPLAINCE 
+tech-suport/  g7PBZT4S
+root/dTt5MFNs
+
+EMAIL APPLIANCE 
+tech-support / NNxPN5kx
+root / mUPMUduk
+
+FPSQL & Local HMAIL -  192.168.122.216 & hmail install
+HMAIL on AWS - 137.74.221.100
+esg1 - c -192.168.122.23 & p1 .24  - fplab.tk
+dlp1 protector - 192.168.122.249
+dlpanalytics - 192.168.122.253
+fpocr - 192.168.122.26
+
+win10 jump - 192.168.122.2  - use proxyconnect&dlp agent to work on the hybrid of the g4labs - - build 2818 on 8.5 version
+win10 test - 192.168.122.137 use proxyconnect agent to work on the web pure cloud - build 2818 on 8.5 version
+user: student - no password
+fpfsm - uses the local wcg proxy 192.168.122.251:8080
+
+win10 test2 - 192.168.122.122  - casb agent
+?
+
+fpsvc user - Forcepoint1!
+hmail: fptest@fpillab.tk
+
+
+
+fpdc\administrator
+
+restart websense module on FSM
+websenseadmin.exe restart in the web security folder on the FSM.
+
+
+
+find root password on ESG and WCG:
+
+config
+set account tech-support --status enabled
+take passcode and put in password site 
+ssh and login with tech supprt user
+show_root
+take password and encyprt in password site
+su -
+login with the root user 
+
+To retrieve the passcode if show_root command does not work, run the following as a "tech-support" user: 
+cat/opt/appliance/config/etc/tech-support/root.passwd | grep Passcode
+
+
+fix WCG license to support DLP
+
+CASB API Integration :
+Access Key  - 138f369c-8184-4fb6-8b97-590905a8734
+Access Key Secert - b14beimi602326g5pj3jfr2k82
+
+CASB API for IL SE Labs
+Access Key - 6061e182-2a91-4a73-80aa-fbf17655da2d
+Access Key Secert - e3kftl4m53c3n62kkj6h88q6s9
+
+
+when lab changes :
+1. set dns to point to new external  IP
+2. in the web > general > filtered location > Edit the Lab filtered location with the new external IP
+3. in the status > dashboard - download the database again 
+4. check the health in status >deployments 
+5. fix the hybrid email wizard
+6. fix the inboud\outbound URL sandbox
+7. connect to the proxy on 192.168.122.250 via putty, go to config mode, run the command start web 
+
+
+ set interface ipv4 --interface p1 --ip 10.206.6.195 --gateway 10.206.7.254

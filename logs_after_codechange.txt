@@ -1,0 +1,217 @@
+20:33:40	Status:	Disconnected from server
+20:33:40	Status:	Connecting to ftpsite.vmware.com through FTP proxy
+20:33:40	Status:	Connecting to 10.5.145.120:2121...
+20:33:40	Status:	Connection established, waiting for welcome message...
+20:33:40	Response:	220-websense Content Gateway Ftp Proxy Ready
+20:33:40	Response:	220-	Please use the 
+20:33:40	Response:	220-		username@ftp-server-name format, e.g. anonymous@ftp.websense.com
+20:33:40	Response:	220 	for the user name prompt!
+20:33:40	Command:	USER inbound@ftpsite.vmware.com
+20:33:41	Response:	331 User name okay, need password.
+20:33:41	Command:	PASS *******
+20:33:41	Response:	230 User logged in, proceed.
+20:33:41	Command:	CLNT FileZilla
+20:33:41	Response:	200 Command OK.
+20:33:41	Command:	OPTS UTF8 ON
+20:33:41	Response:	202 Command not implemented, superfluous at this site.
+20:33:41	Status:	Logged in
+20:33:41	Status:	Retrieving directory listing...
+20:33:41	Command:	PWD
+20:33:42	Response:	257 "/"
+20:33:42	Command:	TYPE I
+20:33:42	Response:	200 Command OK.
+20:33:42	Command:	PASV
+20:33:42	Response:	227 Entering Passive Mode (10,5,145,120,233,128).
+20:33:42	Command:	MLSD
+20:34:02	Error:	Connection timed out after 20 seconds of inactivity
+20:34:02	Error:	Failed to retrieve directory listing
+20:34:02	Status:	Disconnected from server
+20:34:02	Status:	Connecting to ftpsite.vmware.com through FTP proxy
+20:34:02	Status:	Connecting to 10.5.145.120:2121...
+20:34:02	Status:	Connection established, waiting for welcome message...
+20:34:02	Response:	220-websense Content Gateway Ftp Proxy Ready
+20:34:02	Response:	220-	Please use the 
+20:34:02	Response:	220-		username@ftp-server-name format, e.g. anonymous@ftp.websense.com
+20:34:02	Response:	220 	for the user name prompt!
+20:34:02	Command:	USER inbound@ftpsite.vmware.com
+20:34:03	Response:	331 User name okay, need password.
+20:34:03	Command:	PASS *******
+20:34:03	Response:	230 User logged in, proceed.
+20:34:03	Command:	CLNT FileZilla
+20:34:03	Response:	200 Command OK.
+20:34:03	Command:	OPTS UTF8 ON
+20:34:03	Response:	202 Command not implemented, superfluous at this site.
+20:34:03	Status:	Logged in
+20:34:03	Status:	Retrieving directory listing...
+20:34:03	Command:	PWD
+20:34:04	Response:	257 "/"
+20:34:04	Command:	TYPE I
+20:34:04	Response:	200 Command OK.
+20:34:04	Command:	PASV
+20:34:04	Response:	227 Entering Passive Mode (10,5,145,120,86,243).
+20:34:04	Command:	MLSD
+20:34:05	Response:	150 File OK.
+20:34:05	Response:	226 
+20:34:05	Status:	Directory listing of "/" successful
+20:34:39	Status:	Disconnected from server
+20:34:39	Status:	Connecting to ftpsite.vmware.com through FTP proxy
+20:34:39	Status:	Connecting to 10.5.145.120:2121...
+20:34:39	Status:	Connection established, waiting for welcome message...
+20:34:48	Response:	220-websense Content Gateway Ftp Proxy Ready
+20:34:48	Response:	220-	Please use the 
+20:34:48	Response:	220-		username@ftp-server-name format, e.g. anonymous@ftp.websense.com
+20:34:48	Response:	220 	for the user name prompt!
+20:34:48	Command:	USER inbound@ftpsite.vmware.com
+20:34:50	Response:	331 User name okay, need password.
+20:34:50	Command:	PASS *******
+20:34:50	Response:	230 User logged in, proceed.
+20:34:50	Command:	CLNT FileZilla
+20:34:50	Response:	200 Command OK.
+20:34:50	Command:	OPTS UTF8 ON
+20:34:50	Response:	202 Command not implemented, superfluous at this site.
+20:34:50	Status:	Logged in
+20:34:50	Status:	Retrieving directory listing...
+20:34:50	Command:	PWD
+20:34:51	Response:	257 "/"
+20:34:51	Status:	Directory listing of "/" successful
+
+
+
+
+20:39:06	Status:	Disconnected from server
+20:39:06	Status:	Connecting to ftpsite.vmware.com through FTP proxy
+20:39:06	Status:	Connecting to 10.5.145.120:2121...
+20:39:06	Status:	Connection established, waiting for welcome message...
+20:39:06	Response:	220-websense Content Gateway Ftp Proxy Ready
+20:39:06	Response:	220-	Please use the 
+20:39:06	Response:	220-		username@ftp-server-name format, e.g. anonymous@ftp.websense.com
+20:39:06	Response:	220 	for the user name prompt!
+20:39:06	Command:	USER inbound@ftpsite.vmware.com
+20:39:07	Response:	331 User name okay, need password.
+20:39:07	Command:	PASS *******
+20:39:07	Response:	230 User logged in, proceed.
+20:39:07	Command:	CLNT FileZilla
+20:39:07	Response:	200 Command OK.
+20:39:07	Command:	OPTS UTF8 ON
+20:39:08	Response:	202 Command not implemented, superfluous at this site.
+20:39:08	Status:	Logged in
+20:39:08	Status:	Retrieving directory listing...
+20:39:08	Command:	PWD
+20:39:08	Response:	257 "/"
+20:39:08	Command:	TYPE I
+20:39:08	Response:	200 Command OK.
+20:39:08	Command:	PASV
+20:39:08	Response:	227 Entering Passive Mode (10,5,145,120,168,70).
+20:39:08	Command:	MLSD
+20:39:24	Response:	150 File OK.
+20:39:24	Response:	226 
+20:39:24	Status:	Directory listing of "/" successful
+20:40:30	Status:	Disconnected from server
+20:40:30	Status:	Connecting to ftpsite.vmware.com through FTP proxy
+20:40:30	Status:	Connecting to 10.5.145.120:2121...
+20:40:30	Status:	Connection established, waiting for welcome message...
+20:40:30	Response:	220-websense Content Gateway Ftp Proxy Ready
+20:40:30	Response:	220-	Please use the 
+20:40:30	Response:	220-		username@ftp-server-name format, e.g. anonymous@ftp.websense.com
+20:40:30	Response:	220 	for the user name prompt!
+20:40:30	Command:	USER inbound@ftpsite.vmware.com
+20:40:31	Response:	331 User name okay, need password.
+20:40:31	Command:	PASS *******
+20:40:31	Response:	230 User logged in, proceed.
+20:40:31	Command:	CLNT FileZilla
+20:40:31	Response:	200 Command OK.
+20:40:31	Command:	OPTS UTF8 ON
+20:40:32	Response:	202 Command not implemented, superfluous at this site.
+20:40:32	Status:	Logged in
+20:40:32	Status:	Retrieving directory listing...
+20:40:32	Command:	PWD
+20:40:32	Response:	257 "/"
+20:40:32	Status:	Directory listing of "/" successful
+
+
+
+20:43:05	Status:	Connecting to ftpsite.vmware.com through FTP proxy
+20:43:05	Status:	Connecting to 10.5.145.120:2121...
+20:43:05	Status:	Connection established, waiting for welcome message...
+20:43:05	Response:	220-websense Content Gateway Ftp Proxy Ready
+20:43:05	Response:	220-	Please use the 
+20:43:05	Response:	220-		username@ftp-server-name format, e.g. anonymous@ftp.websense.com
+20:43:05	Response:	220 	for the user name prompt!
+20:43:05	Command:	USER inbound@ftpsite.vmware.com
+20:43:05	Response:	331 User name okay, need password.
+20:43:05	Command:	PASS *******
+20:43:06	Response:	230 User logged in, proceed.
+20:43:06	Command:	SYST
+20:43:06	Response:	215 UNIX Type: L8
+20:43:06	Command:	FEAT
+20:43:06	Response:	211-Supported extensions:
+20:43:06	Response:	AUTH
+20:43:06	Response:	CCC
+20:43:06	Response:	CLNT
+20:43:06	Response:	EPRT
+20:43:06	Response:	EPSV
+20:43:06	Response:	LPRT
+20:43:06	Response:	LPSV
+20:43:06	Response:	MDTM
+20:43:06	Response:	MFCT
+20:43:06	Response:	MFMT
+20:43:06	Response:	MLSD
+20:43:06	Response:	MLST
+20:43:06	Response:	PBSZ
+20:43:06	Response:	PROT
+20:43:06	Response:	SITE PSWD
+20:43:06	Response:	SITE ZONE
+20:43:06	Response:	SIZE
+20:43:06	Response:	SMNT
+20:43:06	Response:	SPSV
+20:43:06	Response:	SSCN
+20:43:06	Response:	XCRC
+20:43:06	Response:	XMD5
+20:43:06	Response:	LANG EN*
+20:43:06	Response:	UTF-8
+20:43:06	Response:	UTF8
+20:43:06	Response:	MODE Z
+20:43:06	Response:	211 End.
+20:43:06	Command:	CLNT FileZilla
+20:43:06	Response:	200 Command OK.
+20:43:06	Command:	OPTS UTF8 ON
+20:43:07	Response:	202 Command not implemented, superfluous at this site.
+20:43:07	Status:	Logged in
+20:43:07	Status:	Retrieving directory listing...
+20:43:07	Command:	PWD
+20:43:07	Response:	257 "/"
+20:43:07	Command:	TYPE I
+20:43:07	Response:	200 Command OK.
+20:43:07	Command:	PASV
+20:43:07	Response:	227 Entering Passive Mode (10,5,145,120,87,97).
+20:43:07	Command:	MLSD
+20:43:27	Error:	Connection timed out after 20 seconds of inactivity
+20:43:27	Error:	Failed to retrieve directory listing
+20:43:27	Status:	Disconnected from server
+20:43:27	Status:	Connecting to ftpsite.vmware.com through FTP proxy
+20:43:27	Status:	Connecting to 10.5.145.120:2121...
+20:43:27	Status:	Connection established, waiting for welcome message...
+20:43:27	Response:	220-websense Content Gateway Ftp Proxy Ready
+20:43:27	Response:	220-	Please use the 
+20:43:27	Response:	220-		username@ftp-server-name format, e.g. anonymous@ftp.websense.com
+20:43:27	Response:	220 	for the user name prompt!
+20:43:27	Command:	USER inbound@ftpsite.vmware.com
+20:43:28	Response:	331 User name okay, need password.
+20:43:28	Command:	PASS *******
+20:43:28	Response:	230 User logged in, proceed.
+20:43:28	Command:	CLNT FileZilla
+20:43:28	Response:	200 Command OK.
+20:43:28	Command:	OPTS UTF8 ON
+20:43:29	Response:	202 Command not implemented, superfluous at this site.
+20:43:29	Status:	Logged in
+20:43:29	Status:	Retrieving directory listing...
+20:43:29	Command:	PWD
+20:43:29	Response:	257 "/"
+20:43:29	Command:	TYPE I
+20:43:29	Response:	200 Command OK.
+20:43:29	Command:	PASV
+20:43:29	Response:	227 Entering Passive Mode (10,5,145,120,145,108).
+20:43:29	Command:	MLSD
+20:43:40	Response:	150 File OK.
+20:43:41	Response:	226 
+20:43:41	Status:	Directory listing of "/" successful

@@ -1,0 +1,9 @@
+
+Hybrid
+
+setup.exe /s /v"WSCONTEXT=4ea357430de7865d38c990e8119acd02-1 /qn"
+
+
+Cloud
+
+setup.exe /s /v"WSCONTEXT=df508ca5cc191fee8d2764079ad5be1c-0 /qn"
